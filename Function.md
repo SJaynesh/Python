@@ -1,65 +1,64 @@
-# Python – Types of Function Parameters
+# 🐍 Python Functions & Scope Masterclass
 
-In Python, function parameters are used to receive values when a function is called.
-
-Python provides different types of function parameters that make functions flexible and reusable.
-
-## Types of Function Parameters
-
-1. Required Positional Arguments
-2. Optional Arguments
-   - Arbitrary Arguments (`*args`)
-   - Keyword Arguments
-   - Arbitrary Keyword Arguments (`**kwargs`)
-3. Default Arguments
+A comprehensive reference guide covering advanced function parameters, docstrings, anonymous functions, scope management, and multi-value returns in Python.
 
 ---
 
-
-# Docstring (document string)
-
-- A documentation for any objects in python such as functions, class, module, or package.
-
-## How to create a docstring ?
-
-- We must have to write a docstring as a multi-line string within a very first line of function, class, module, or package.
-
-## How to access docstring ?
-
-- Using :
-   - i. __ doc __ attribute      dunder doc
-   - ii. help() function 
+## 📑 Table of Contents
+- [Types of Function Parameters](#-types-of-function-parameters)
+- [Docstrings (Document Strings)](#-docstrings-document-strings)
+- [Anonymous / Lambda Functions](#-anonymous--lambda-functions)
+- [Global Keyword](#-global-keyword)
+- [Returning Multiple Values](#-how-to-return-multiple-values-from-a-function)
 
 ---
 
+## ⚙️ Types of Function Parameters
 
-# Anonymous / lamda Function
+In Python, function parameters are used to receive values when a function is called. Python provides different types of function parameters that make functions flexible and reusable.
 
-- A function without a name is called anonymous function.
-- This function doesn't have a multi-line body.
-- This function must return some value or expression.
-
-
-- Syntax :
-
-  `lamda arguments: expression`
-
----
-
-
-# Global Keyword
-
-- Using global keyword we can access global variable inside a local scope.
-
+1. **Required Positional Arguments**
+2. **Optional Arguments**
+   * Arbitrary Arguments (`*args`)
+   * Keyword Arguments
+   * Arbitrary Keyword Arguments (`**kwargs`)
+3. **Default Arguments**
 
 ---
 
+## 📖 Docstring (Document String)
 
-# How to return multiple values from a function ?
+* Documentation for any object in Python, such as functions, classes, modules, or packages.
 
-- Using :
-   - List
-   - Tuple
-   - Set
-   - Dictionary
-   - Class & Object 
+### How to Create a Docstring?
+* A docstring must be written as a multi-line string on the very first line inside the function, class, module, or package.
+
+### How to Access a Docstring?
+* **i.** `__doc__` attribute (Dunder doc)
+* **ii.** `help()` function
+
+---
+
+## ⚡ Anonymous / Lambda Function
+
+* A function without a name is called an **anonymous function**.
+* This function does not have a multi-line body.
+* This function must return some value or expression.
+
+### Syntax:
+```python
+lambda arguments: expression
+```
+
+## 🌐 Global Keyword
+
+* Using the `global` keyword, we can access and modify a global variable inside a local scope.
+
+## How to Return Multiple Values from a Function?
+
+* You can return multiple values from a function using:
+*    List
+*    Tuple
+*    Set
+*    Dictionary
+*    Class & Object
