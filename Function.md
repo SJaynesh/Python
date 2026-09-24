@@ -2,16 +2,6 @@
 
 A comprehensive reference guide covering advanced function parameters, docstrings, anonymous functions, scope management, and multi-value returns in Python.
 
----
-
-## 📑 Table of Contents
-- [Types of Function Parameters](#-types-of-function-parameters)
-- [Docstrings (Document Strings)](#-docstrings-document-strings)
-- [Anonymous / Lambda Functions](#-anonymous--lambda-functions)
-- [Global Keyword](#-global-keyword)
-- [Returning Multiple Values](#-how-to-return-multiple-values-from-a-function)
-
----
 
 ## ⚙️ Types of Function Parameters
 
