@@ -48,7 +48,7 @@
 
 <br><br>
 
-## ⚡ Exception
+## ⚡ Raise Keyword
 
 - Using raise keyword, we can manually trigger any exceptions.
 - We can trigger either built-in exception or custom exception.
