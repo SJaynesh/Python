@@ -81,3 +81,25 @@ raise exception_class_name("message")
 class UserExectionClassName(Exception):
       pass
 ```
+
+
+<br><br>
+
+## ⚡Assert Keyword
+
+- This keyword is used for debugging purpose by applying some conditions.
+- It triggers an AssertionError, if a given condition is false.
+
+---
+
+### 📝 Syntax :
+
+```python
+assert condition
+
+      or
+
+assert condition, "message"
+```
+
+
