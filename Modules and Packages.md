@@ -56,6 +56,28 @@ from module_name import functionality
 
 <br><br>
 
+## 🧩 Package
+
+- A directory which consists one or more modules.
+- A package can also contains `__init__` file
+- When we import a package, a subpackage called `__pycache__` is automatically created. In that `__pycache__` subpackage, a byte code is consists.
+- When our package is imported, a `__init__.py` file is automatically invoked.
+
+
+<br><br>
+
+### 📝 Syntax
+
+```python
+from package_name import module_name
+
+or
+
+from package_name import *
+```
+
+<br><br>
+
 
 ## 🧩 Higher-Order Functions
 
