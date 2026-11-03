@@ -91,5 +91,58 @@ from package_name import *
 
 ---
 
+<br><br>
+
+### map() function
+
+- This function maps all individual elements from the collection to the given function.
+- This function returns N number of elements, if the total given elements are of N size.
+
+<br><br>
+
+#### 📝 Syntax
+
+```python
+map(function, collection)
+```
+
+<br><br>
+
+### filter() function
+
+- This function filter out all individual elements from the collection by a given condition from the given function.
+- This function returns less then or equal to N number of elements, if the total given elements are of N size.
+
+<br><br>
+
+#### 📝 Syntax
+
+```python
+filter(function, collection)
+```
+
+<br><br>
+
+### reduce() function
+
+- This function cumulates all individual elements from the collection by a given condition from the given function.
+- This function returns exactly one elements, if the total given elements are of N size.
+
+<br><br>
+
+#### 📝 Syntax
+
+```python
+reduce(function, collection)
+```
+
+<br><br>
+
+#### 📝sorted() Syntax
+
+```python
+sorted(collection, key=function)
+```
+
 ### 🚀 Happy Coding! 🐍
 
